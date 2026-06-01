@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>⚡ THUNDER | Arabic Game Translations</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Tahoma,sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#0b0b0b;
+color:white;
+}
+
+header{
+background:linear-gradient(135deg,#ffb400,#ff7300);
+padding:60px 20px;
+text-align:center;
+box-shadow:0 0 30px rgba(255,180,0,.4);
+}
+
+header h1{
+font-size:70px;
+}
+
+header p{
+margin-top:10px;
+font-size:20px;
+}
+
+nav{
+background:#121212;
+padding:15px;
+position:sticky;
+top:0;
+z-index:999;
+text-align:center;
+}
+
+nav a{
+color:#ffb400;
+text-decoration:none;
+margin:0 15px;
+font-weight:bold;
+}
+
+.hero{
+padding:80px 20px;
+text-align:center;
+}
+
+.hero h2{
+font-size:45px;
+margin-bottom:15px;
+}
+
+.hero p{
+color:#ccc;
+font-size:18px;
+}
+
+.discord-btn{
+display:inline-block;
+margin-top:20px;
+padding:15px 30px;
+background:#5865F2;
+color:white;
+text-decoration:none;
+border-radius:10px;
+font-weight:bold;
+}
+
+.stats{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:20px;
+padding:40px 20px;
+}
+
+.stat{
+background:#181818;
+padding:20px;
+border-radius:15px;
+min-width:200px;
+text-align:center;
+border:1px solid #333;
+}
+
+.section{
+max-width:1400px;
+margin:auto;
+padding:60px 20px;
+}
+
+.section h2{
+text-align:center;
+margin-bottom:30px;
+color:#ffb400;
+}
+
+.search{
+width:100%;
+padding:15px;
+border:none;
+border-radius:10px;
+margin-bottom:30px;
+font-size:18px;
+}
+
+.games{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:#181818;
+padding:20px;
+border-radius:15px;
+transition:.3s;
+border:1px solid #2c2c2c;
+}
+
+.card:hover{
+transform:translateY(-5px);
+box-shadow:0 0 20px rgba(255,180,0,.3);
+}
+
+.card h3{
+color:#ffb400;
+margin-bottom:10px;
+}
+
+.card p{
+color:#bbb;
+}
+
+footer{
+background:#111;
+padding:25px;
+text-align:center;
+color:#999;
+margin-top:50px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>⚡ THUNDER ⚡</h1>
+<p>مكتبة التعريبات العربية للألعاب</p>
+</header>
+
+<nav>
+<a href="#games">التعريبات</a>
+<a href="#future">القادم</a>
+<a href="#discord">ديسكورد</a>
+</nav>
+
+<section class="hero">
+<h2>أكثر من 36 تعريب عربي مجاني</h2>
+<p>تعريبات احترافية للألعاب مع تحديثات مستمرة.</p>
+
+<a class="discord-btn"
+href="https://discord.gg/452FgnbPd"
+target="_blank">
+💬 دخول الديسكورد
+</a>
+</section>
+
+<div class="stats">
+<div class="stat">🎮 36 تعريب</div>
+<div class="stat">🚀 3 مشاريع قادمة</div>
+<div class="stat">⚡ THUNDER</div>
+</div>
+
+<section id="games" class="section">
+
+<h2>🎮 جميع التعريبات</h2>
+
+<input
+type="text"
+class="search"
+id="search"
+placeholder="ابحث عن لعبة..."
+onkeyup="searchGames()">
+
+<div class="games" id="gamesList">
+
+<div class="card"><h3>Red Dead Redemption</h3></div>
+<div class="card"><h3>The Last of Us</h3></div>
+<div class="card"><h3>Sons of the Forest</h3></div>
+<div class="card"><h3>Star Wars Outlaws</h3></div>
+<div class="card"><h3>Fallout 4</h3></div>
+<div class="card"><h3>Skyrim Special Edition</h3></div>
+<div class="card"><h3>Metro Exodus</h3></div>
+<div class="card"><h3>Metro Last Light Redux</h3></div>
+<div class="card"><h3>Final Fantasy VII Remake</h3></div>
+<div class="card"><h3>Final Fantasy VII Rebirth</h3></div>
+<div class="card"><h3>Assassin's Creed IV Black Flag</h3></div>
+<div class="card"><h3>Outlast</h3></div>
+<div class="card"><h3>Outlast 2</h3></div>
+<div class="card"><h3>Vampyr</h3></div>
+<div class="card"><h3>Infliction</h3></div>
+<div class="card"><h3>Dave The Diver</h3></div>
+<div class="card"><h3>Stardew Valley</h3></div>
+<div class="card"><h3>Hollow Knight</h3></div>
+<div class="card"><h3>Hades II</h3></div>
+<div class="card"><h3>Kingdom Two Crowns</h3></div>
+<div class="card"><h3>It Takes Two</h3></div>
+<div class="card"><h3>Overcooked</h3></div>
+<div class="card"><h3>Baldur's Gate</h3></div>
+<div class="card"><h3>Crusader Kings III</h3></div>
+<div class="card"><h3>Drova Forsaken Kin</h3></div>
+<div class="card"><h3>Endzone 2</h3></div>
+<div class="card"><h3>Mafia</h3></div>
+<div class="card"><h3>Mount & Blade II Bannerlord</h3></div>
+<div class="card"><h3>Life is Strange</h3></div>
+<div class="card"><h3>Life is Strange Remastered</h3></div>
+<div class="card"><h3>The Sims 4</h3></div>
+<div class="card"><h3>The Walking Dead Season 1</h3></div>
+<div class="card"><h3>Conan Exiles</h3></div>
+<div class="card"><h3>Palia</h3></div>
+<div class="card"><h3>Ranch Simulator</h3></div>
+<div class="card"><h3>Middle-earth Shadow of Mordor</h3></div>
+
+</div>
+
+</section>
+
+<section id="future" class="section">
+
+<h2>🔥 المشاريع القادمة</h2>
+
+<div class="games">
+
+<div class="card">
+<h3>First Light 007</h3>
+<p>قيد المتابعة</p>
+</div>
+
+<div class="card">
+<h3>Sniper Elite 5</h3>
+<p>قيد الدراسة</p>
+</div>
+
+<div class="card">
+<h3>Crimson Desert</h3>
+<p>قريباً</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="discord" class="section">
+
+<h2>💬 مجتمع THUNDER</h2>
+
+<div style="text-align:center">
+
+<a class="discord-btn"
+href="https://discord.gg/452FgnbPd"
+target="_blank">
+انضم إلى السيرفر
+</a>
+
+</div>
+
+</section>
+
+<footer>
+© THUNDER 2026 - جميع الحقوق محفوظة
+</footer>
+
+<script>
+function searchGames(){
+let input=document.getElementById("search").value.toLowerCase();
+let cards=document.querySelectorAll(".card");
+
+cards.forEach(card=>{
+if(card.innerText.toLowerCase().includes(input)){
+card.style.display="";
+}else{
+card.style.display="none";
+}
+});
+}
+</script>
+
+</body>
+</html>
